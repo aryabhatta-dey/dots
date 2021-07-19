@@ -1,0 +1,54 @@
+# Mpd settings
+mpd_host = localhost
+mpd_port = 6600
+mpd_music_dir = ~/Music
+lyrics_directory = ~/.cache/lyrics
+user_interface = "alternative"
+
+# Colors
+colors_enabled = yes
+main_window_color = white
+empty_tag_color = cyan
+header_window_color = white
+volume_color = white
+color1 = white
+color2 = cyan
+progressbar_color = black
+progressbar_elapsed_color = white
+statusbar_color = white
+statusbar_time_color = cyan
+player_state_color = cyan
+alternative_ui_separator_color = cyan
+window_border_color = black
+active_window_border = cyan
+
+# View
+progressbar_look = "=="
+display_bitrate = "yes"
+
+autocenter_mode = "yes"
+follow_now_playing_lyrics = "yes"
+default_place_to_search_in = "database"
+
+# Display Modes
+playlist_editor_display_mode = "columns"
+search_engine_display_mode = "columns"
+browser_display_mode = "columns"
+playlist_display_mode = "columns"
+
+alternative_header_first_line_format = $b$1$9 {%t}|{%f} $1$9$/b
+alternative_header_second_line_format = {{$4$b%a$/b$9}{ - $7%b$9}{ ($4%y$9)}}|{%D}
+ask_before_clearing_playlists = "yes"
+
+cyclic_scrolling = "yes"
+header_text_scrolling = "yes"
+jump_to_now_playing_song_at_start = "yes"
+
+system_encoding = "utf-8"
+regular_expressions = "extended"
+header_visibility = "yes"
+statusbar_visibility = "yes"
+
+centered_cursor = "yes"
+enable_window_title = "yes"
+empty_tag_marker = ""

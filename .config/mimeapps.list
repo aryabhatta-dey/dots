@@ -1,0 +1,7 @@
+[Default Applications]
+text/plain=vim.desktop
+application/pdf=org.pwmt.zathura.desktop
+video/mp4=mpv.desktop
+image/png=imv.desktop
+image/jpg=imv.desktop
+application/epub+zip=com.github.johnfactotum.Foliate.desktop

@@ -1,0 +1,5 @@
+# the space at the end of the link needs to be given for coc-snippet to trigger it
+snippet 'https://github.com/(.+) ' "Vim-plug snippet" brA
+" Plugin for $1
+Plug '`!p snip.rv = match.group()`'
+endsnippet
