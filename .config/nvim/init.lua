@@ -1,0 +1,6 @@
+require("impatient")
+require("options")
+require("keymappings")
+vim.cmd([[source ~/.config/nvim/vimscript/functions.vim]])
+require("plugins")
+require("lsp")

@@ -111,6 +111,11 @@ endsnippet
 # End of sympy snippets
 
 context "math()"
+snippet bra "braket" bA
+\\braket{$1}$0
+endsnippet
+
+context "math()"
 snippet '([A-Za-z])_(\w)' "subscript" wrA
 `!p snip.rv = match.group(1)`_{`!p snip.rv = match.group(2)`$1} $0
 endsnippet
@@ -187,11 +192,6 @@ snippet bf "boldface" iA
 \\mathbf{$1}$0
 endsnippet
 
-# context "math()"
-# snippet '(E|B|S)' "common vectors" wrA
-# \\mathbf{`!p snip.rv = match.group(1)`}
-# endsnippet
-
 context "math()"
 snippet . "dot product" iA
 \\cdot
@@ -203,18 +203,18 @@ snippet xx "cross product" iA
 endsnippet
 
 context "math()"
-snippet eps "epsilon naught" iA
-\\epsilon_{0}
-endsnippet
-
-context "math()"
-snippet mu "mu naught" iA
-\\mu_{0}
+snippet eps "epsilon" iA
+\\epsilon
 endsnippet
 
 context "math()"
 snippet nab "nabla" iA
 \\nabla
+endsnippet
+
+context "math()"
+snippet sig "sigma" iA
+\\sigma
 endsnippet
 
 context "math()"
@@ -225,4 +225,9 @@ endsnippet
 context "math()"
 snippet div "divergence" iA
 \\nabla \\cdot 
+endsnippet
+
+context "math()"
+snippet int "integral" iA
+\int_a^b \! f(x) \, \mathrm{d}x
 endsnippet
